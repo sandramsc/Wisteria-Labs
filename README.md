@@ -8,7 +8,7 @@ xyz
 ## Table of Contents
 
 <details>
-<summary>HyperStream</summary>
+<summary>AppName</summary>
 
 - [Application Description](#application-description)
 - [Table of Contents](#table-of-contents)
@@ -46,7 +46,7 @@ xyz
 
 ## Figma Wireframe
 
-[AppName wireframes](https://www.figma.com/file/QdZmAGSeF6wA8zsy7Bi12S/Hackathon-design-file?node-id=5%3A6230&t=qbSvAWaV3XjR0t6g-1)
+[AppName wireframes](https://link)
 
 ## How to use the app
 
