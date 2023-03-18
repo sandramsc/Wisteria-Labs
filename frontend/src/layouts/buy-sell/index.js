@@ -2,14 +2,8 @@
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
 
-// @mui icons
-import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import InstagramIcon from "@mui/icons-material/Instagram";
-
 // Soft UI Assets React components
 import SoftBox from "components/SoftBox";
-import SoftTypography from "components/SoftTypography";
 
 // Soft UI Dashboard React examples
 import AssetsLayout from "examples/LayoutContainers/AssetsLayout";
@@ -33,10 +27,10 @@ function Overview() {
       <SoftBox mt={5} mb={3}>
         <Grid container spacing={3}>
           <Grid item xs={12} md={6} xl={4}>
-          <CurrencyList title="conversations" profiles={currencyListData} />
+          <CurrencyList title="conversations" currency={currencyListData} />
           </Grid>
           <Grid item xs={12} xl={4}>
-            <PaymentMethodList title="conversations" profiles={paymentmethodListData} />
+            <PaymentMethodList title="conversations" paymentmethod={paymentmethodListData} />
           </Grid>
         </Grid>
       </SoftBox>
