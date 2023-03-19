@@ -1,18 +1,3 @@
-/**
-=========================================================
-* Soft UI Dashboard React - v4.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Card from "@mui/material/Card";
 import Grid from "@mui/material/Grid";
@@ -27,10 +12,6 @@ import SoftButton from "components/SoftButton";
 // Soft UI Dashboard React base styles
 import borders from "assets/theme/base/borders";
 
-// Images
-import masterCardLogo from "assets/images/logos/mastercard.png";
-import visaLogo from "assets/images/logos/visa.png";
-
 function PaymentMethod() {
   const { borderWidth, borderColor } = borders;
 
@@ -38,12 +19,8 @@ function PaymentMethod() {
     <Card id="delete-account">
       <SoftBox pt={2} px={2} display="flex" justifyContent="space-between" alignItems="center">
         <SoftTypography variant="h6" fontWeight="medium">
-          Payment Method
+          Amount
         </SoftTypography>
-        <SoftButton variant="gradient" color="dark">
-          <Icon sx={{ fontWeight: "bold" }}>add</Icon>
-          &nbsp;add new card
-        </SoftButton>
       </SoftBox>
       <SoftBox p={2}>
         <Grid container spacing={3}>
@@ -56,16 +33,14 @@ function PaymentMethod() {
               alignItems="center"
               p={3}
             >
-              <SoftBox component="img" src={masterCardLogo} alt="master card" width="10%" mr={2} />
+              
               <SoftTypography variant="h6" fontWeight="medium">
-                ****&nbsp;&nbsp;****&nbsp;&nbsp;****&nbsp;&nbsp;7852
+              708.85 USD
               </SoftTypography>
               <SoftBox ml="auto" lineHeight={0}>
-                <Tooltip title="Edit Card" placement="top">
-                  <Icon sx={{ cursor: "pointer" }} fontSize="small">
-                    edit
-                  </Icon>
-                </Tooltip>
+              <SoftTypography variant="h6" fontWeight="medium">
+              USD
+              </SoftTypography>
               </SoftBox>
             </SoftBox>
           </Grid>
@@ -78,21 +53,27 @@ function PaymentMethod() {
               alignItems="center"
               p={3}
             >
-              <SoftBox component="img" src={visaLogo} alt="master card" width="10%" mr={2} />
+              
               <SoftTypography variant="h6" fontWeight="medium">
-                ****&nbsp;&nbsp;****&nbsp;&nbsp;****&nbsp;&nbsp;5248
+                1.0002
               </SoftTypography>
               <SoftBox ml="auto" lineHeight={0}>
-                <Tooltip title="Edit Card" placement="top">
-                  <Icon sx={{ cursor: "pointer" }} fontSize="small">
-                    edit
-                  </Icon>
-                </Tooltip>
+              <SoftTypography variant="h6" fontWeight="medium">
+              BTC
+              </SoftTypography>
               </SoftBox>
             </SoftBox>
           </Grid>
+          
         </Grid>
       </SoftBox>
+      <SoftBox pt={2} px={2} display="flex" justifyContent="center" alignItems="center">
+      <SoftButton variant="gradient" color="dark" width="15%" display="flex" alignItems="center">
+          Buy Cryptocurrency
+        </SoftButton>
+      </SoftBox>
+      
+     
     </Card>
   );
 }

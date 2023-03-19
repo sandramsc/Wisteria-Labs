@@ -7,23 +7,23 @@ const paymentmethodListData = [
   {
     image: kal,
     name: "Master Card",
-    description: "***595",
+    description: "*** *** 5951",
     action: {
       type: "internal",
       route: "/pages/profile/profile-overview",
       color: "info",
-      label: "reply",
+      label: "more...",
     },
   },
   {
     image: marie,
     name: "VISA",
-    description: "***4949",
+    description: "*** *** 4949",
     action: {
       type: "internal",
       route: "/pages/profile/profile-overview",
       color: "info",
-      label: "reply",
+      label: "more...",
     },
   },
   {
@@ -34,7 +34,7 @@ const paymentmethodListData = [
       type: "internal",
       route: "/pages/profile/profile-overview",
       color: "info",
-      label: "reply",
+      label: "",
     },
   },
 ];

@@ -12,7 +12,7 @@ const currencyListData = [
       type: "internal",
       route: "/pages/profile/profile-overview",
       color: "info",
-      label: "reply",
+      label: "more...",
     },
   },
   {
@@ -23,7 +23,7 @@ const currencyListData = [
       type: "internal",
       route: "/pages/profile/profile-overview",
       color: "info",
-      label: "reply",
+      label: "more...",
     },
   },
   {
@@ -34,7 +34,7 @@ const currencyListData = [
       type: "internal",
       route: "/pages/profile/profile-overview",
       color: "info",
-      label: "reply",
+      label: "",
     },
   },
 ];

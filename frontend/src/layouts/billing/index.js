@@ -29,7 +29,6 @@ import AssetsNavbar from "examples/Navbars/AssetsNavbar";
 import Footer from "examples/Footer";
 
 // Billing page components
-import PaymentMethod from "layouts/billing/components/PaymentMethod";
 import Invoices from "layouts/billing/components/Invoices";
 import BillingInformation from "layouts/billing/components/BillingInformation";
 
@@ -62,7 +61,7 @@ function Billing() {
                   />
                 </Grid>
                 <Grid item xs={12}>
-                  <PaymentMethod />
+
                 </Grid>
               </Grid>
             </Grid>
