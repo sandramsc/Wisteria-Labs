@@ -1,7 +1,6 @@
 // Soft UI Dashboard React layouts
 import Assets from "layouts/assets";
 import Accounts from "layouts/accounts";
-import Tables from "layouts/tables";
 import Billing from "layouts/billing";
 import BuySell from "layouts/buy-sell";
 import SendRequest from "layouts/send-request";
@@ -9,7 +8,6 @@ import Settings from "layouts/settings";
 
 // Soft UI Dashboard React icons
 import Shop from "examples/Icons/Shop";
-import Office from "examples/Icons/Office";
 import CustomerSupport from "examples/Icons/CustomerSupport";
 import CreditCard from "examples/Icons/CreditCard";
 
@@ -48,15 +46,6 @@ const routes = [
     route: "/accounts",
     icon: <CustomerSupport size="12px" />,
     component: <Accounts />,
-    noCollapse: true,
-  },
-  {
-    type: "collapse",
-    name: "Tables",
-    key: "tables",
-    route: "/tables",
-    icon: <Office size="12px" />,
-    component: <Tables />,
     noCollapse: true,
   },
   {

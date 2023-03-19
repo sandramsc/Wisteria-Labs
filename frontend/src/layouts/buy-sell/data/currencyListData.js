@@ -1,15 +1,13 @@
 // Images
-import kal from "assets/images/kal-visuals-square.jpg";
-import marie from "assets/images/marie.jpg";
-import ivana from "assets/images/ivana-square.jpg";
-import team3 from "assets/images/team-3.jpg";
-import team4 from "assets/images/team-4.jpg";
+import kal from "assets/images/logo-bitcoin.svg";
+import marie from "assets/images/eth-logo.svg";
+import ivana from "assets/images/add_icon.png";
 
 const currencyListData = [
   {
     image: kal,
-    name: "Sophie B.",
-    description: "Hi! I need more information..",
+    name: "Bitcoin",
+    description: "$ 5789.26",
     action: {
       type: "internal",
       route: "/pages/profile/profile-overview",
@@ -19,8 +17,8 @@ const currencyListData = [
   },
   {
     image: marie,
-    name: "Anne Marie",
-    description: "Awesome work, can you..",
+    name: "Ethereum",
+    description: "$ 1425.89",
     action: {
       type: "internal",
       route: "/pages/profile/profile-overview",
@@ -30,30 +28,8 @@ const currencyListData = [
   },
   {
     image: ivana,
-    name: "Ivanna",
-    description: "About files I can..",
-    action: {
-      type: "internal",
-      route: "/pages/profile/profile-overview",
-      color: "info",
-      label: "reply",
-    },
-  },
-  {
-    image: team4,
-    name: "Peterson",
-    description: "Have a great afternoon..",
-    action: {
-      type: "internal",
-      route: "/pages/profile/profile-overview",
-      color: "info",
-      label: "reply",
-    },
-  },
-  {
-    image: team3,
-    name: "Nick Daniel",
-    description: "Hi! I need more information..",
+    name: "Add New...",
+    description: "",
     action: {
       type: "internal",
       route: "/pages/profile/profile-overview",
