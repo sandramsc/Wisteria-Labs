@@ -43,12 +43,12 @@ function Assets() {
                     <SoftTypography variant="button" color="text" fontWeight="medium">
                       4% more{" "}
                       <SoftTypography variant="button" color="text" fontWeight="regular">
-                        in 2021
+                        in 2023
                       </SoftTypography>
                     </SoftTypography>
                   </SoftBox>
                 }
-                height="20.25rem"
+                height="22rem"
                 chart={gradientLineChartData}
               />
             </Grid>

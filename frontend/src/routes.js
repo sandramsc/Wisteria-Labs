@@ -4,7 +4,6 @@ import Accounts from "layouts/accounts";
 import Billing from "layouts/billing";
 import BuySell from "layouts/buy-sell";
 import SendRequest from "layouts/send-request";
-import Settings from "layouts/settings";
 
 // Soft UI Dashboard React icons
 import Shop from "examples/Icons/Shop";
@@ -55,15 +54,6 @@ const routes = [
     route: "/billing",
     icon: <CreditCard size="12px" />,
     component: <Billing />,
-    noCollapse: true,
-  },
-  {
-    type: "collapse",
-    name: "Settings",
-    key: "settings",
-    route: "/settings",
-    icon: <CustomerSupport size="12px" />,
-    component: <Settings />,
     noCollapse: true,
   },
 ];

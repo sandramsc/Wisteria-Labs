@@ -24,7 +24,7 @@ function Transactions() {
             </Icon>
           </SoftBox>
           <SoftTypography variant="button" color="text" fontWeight="regular">
-            23 - 30 March 2020
+            23 - 30 March 2023
           </SoftTypography>
         </SoftBox>
       </SoftBox>
@@ -51,14 +51,14 @@ function Transactions() {
             color="error"
             icon="arrow_downward"
             name="Bought BIC"
-            description="27 March 2020, at 12:30 PM"
+            description="27 March 2023, at 12:30 PM"
             value="- $ 2,500"
           />
           <Transaction
             color="success"
             icon="arrow_upward"
             name="Sold ETH"
-            description="27 March 2020, at 04:30 AM"
+            description="27 March 2023, at 04:30 AM"
             value="+ $ 2,000"
           />
         </SoftBox>
@@ -84,14 +84,14 @@ function Transactions() {
             color="success"
             icon="arrow_upward"
             name="Sold MATIC"
-            description="26 March 2020, at 13:45 PM"
+            description="26 March 2023, at 13:45 PM"
             value="+ $ 750"
           />
           <Transaction
             color="dark"
             icon="priority_high"
             name="Bought ETH"
-            description="26 March 2020, at 05:00 AM"
+            description="26 March 2023, at 05:00 AM"
             value="Pending"
           />
         </SoftBox>

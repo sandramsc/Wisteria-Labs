@@ -35,7 +35,7 @@ function PaymentMethod() {
             >
               
               <SoftTypography variant="h6" fontWeight="medium">
-              708.85 USD
+              708.85
               </SoftTypography>
               <SoftBox ml="auto" lineHeight={0}>
               <SoftTypography variant="h6" fontWeight="medium">
@@ -67,7 +67,7 @@ function PaymentMethod() {
           
         </Grid>
       </SoftBox>
-      <SoftBox pt={2} px={2} display="flex" justifyContent="center" alignItems="center">
+      <SoftBox pt={2} px={2} mb={2} display="flex" justifyContent="center" alignItems="center">
       <SoftButton variant="gradient" color="dark" width="15%" display="flex" alignItems="center">
           Buy Cryptocurrency
         </SoftButton>
