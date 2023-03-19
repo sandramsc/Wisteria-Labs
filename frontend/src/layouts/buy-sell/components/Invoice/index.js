@@ -46,12 +46,6 @@ function Invoice({ date, id, price, noGutter }) {
         <SoftTypography variant="button" fontWeight="regular" color="text">
           {price}
         </SoftTypography>
-        <SoftBox display="flex" alignItems="center" lineHeight={0} ml={3} sx={{ cursor: "poiner" }}>
-          <Icon fontSize="small">picture_as_pdf</Icon>
-          <SoftTypography variant="button" fontWeight="bold">
-            &nbsp;PDF
-          </SoftTypography>
-        </SoftBox>
       </SoftBox>
     </SoftBox>
   );
