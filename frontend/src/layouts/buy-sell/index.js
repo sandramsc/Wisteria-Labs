@@ -16,37 +16,36 @@ import AssetsNavbar from "examples/Navbars/AssetsNavbar";
 // Data
 import currencyListData from "layouts/buy-sell/data/currencyListData";
 import paymentmethodListData from "layouts/buy-sell/data/paymentmethodListData";
-
+import Invoices from "layouts/buy-sell/components/Invoices";
 
 function Overview() {
   return (
     <AssetsLayout>
     <AssetsNavbar />
-      <SoftBox mt={5} mb={3}>
+    <SoftBox mt={4}>
+      <SoftBox mb={1.5}>
         <Grid container spacing={3}>
-          <Grid item xs={12} md={6} xl={6}>
-          <CurrencyList title="currency" currency={currencyListData} />
+          <Grid item xs={12} lg={8}>
+            <Grid container spacing={3}>
+              <Grid item xs={12} md={6} xl={6}>
+              <CurrencyList title="currency" currency={currencyListData} />
+              </Grid>
+              <Grid item xs={12} md={6} xl={6}>
+              <PaymentMethodList title="payment method" paymentmethod={paymentmethodListData} />
+              </Grid>
+              <Grid item xs={12}>
+                <PaymentMethod />
+              </Grid>
+            </Grid>
           </Grid>
-          <Grid item xs={12} xl={6}>
-            <PaymentMethodList title="payment method" paymentmethod={paymentmethodListData} />
+          <Grid item xs={12} lg={4}>
+            <Invoices />
           </Grid>
         </Grid>
       </SoftBox>
-      <SoftBox mb={3}>
-        <Card>
-          <SoftBox p={2}>
-            <Grid container spacing={3}>
-     
-                <Grid item xs={12}>
-                  <PaymentMethod />
-                </Grid>
-            </Grid>
-          </SoftBox>
-        </Card>
-      </SoftBox>
-
-      <Footer />
-    </AssetsLayout>
+    </SoftBox>
+    <Footer />
+  </AssetsLayout>
   );
 }
 
