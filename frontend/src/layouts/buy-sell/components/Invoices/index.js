@@ -4,7 +4,7 @@
  
  // @mui material components
 import Divider from "@mui/material/Divider";
-
+import Invoice from "layouts/buy-sell/components/Invoice"
 // Soft UI Dashboard React components
 import SoftBox from "components/SoftBox";
 import SoftTypography from "components/SoftTypography";
@@ -36,48 +36,36 @@ import SoftTypography from "components/SoftTypography";
 
       <SoftBox pt={1.25} pb={3} px={3}>
 
-        <SoftBox mt={3} lineHeight={1}>
-
-       
+        <SoftBox lineHeight={1}>
+        <SoftBox component="ul" display="flex" flexDirection="column" p={0} m={0}>
+          <Invoice date="Payment Method" id="USD Wallet" />
         </SoftBox>
-      
-
-        <Divider />
-
-        <SoftBox mt={3} mb={2}>
-          <SoftBox mb={2}>
-          
-          </SoftBox>
+        </SoftBox>
     
+        <Divider />
+
+        <SoftBox lineHeight={1}>
+        <SoftBox component="ul" display="flex" flexDirection="column" p={0} m={0}>
+          <Invoice date="Deposit To" id="BTC Wallet" price="Change" />
+        </SoftBox>
         </SoftBox>
 
         <Divider />
 
-        <SoftBox mt={3} mb={2}>
-          <SoftBox mb={2}>
-          
-          </SoftBox>
-
+        <SoftBox lineHeight={1}>
+        <SoftBox component="ul" display="flex" flexDirection="column" p={0} m={0}>
+          <Invoice date="Wait Time" id="Instant"  />
+        </SoftBox>
         </SoftBox>
 
         <Divider />
 
-        <SoftBox mt={3} mb={2}>
-          <SoftBox mb={2}>
-          
-          </SoftBox>
-
+        <SoftBox lineHeight={1}>
+        <SoftBox component="ul" display="flex" flexDirection="column" p={0} m={0}>
+          <Invoice date="Fee"   price="$9.07"/>
+          <Invoice date="Subtotal"   price="$744.56"/>
+          <Invoice date="Total"   price="$753.53"/>
         </SoftBox>
-   
-        <SoftBox mt={3} textAlign="center">
-      
-
-          <SoftBox display="flex" justifyContent="center">
-            <SoftBox mr={1.5}>
-     
-            </SoftBox>
-        
-          </SoftBox>
         </SoftBox>
       </SoftBox>
      </Card>
