@@ -6,7 +6,7 @@ import Grid from "@mui/material/Grid";
 import SoftBox from "components/SoftBox";
 import SoftTypography from "components/SoftTypography";
 import SoftButton from "components/SoftButton";
-
+import Exchange from "assets/images/exchange.png";
 // Soft UI Dashboard React base styles
 import borders from "assets/theme/base/borders";
 
@@ -22,7 +22,7 @@ function PaymentMethod() {
       </SoftBox>
       <SoftBox p={2}>
         <Grid container spacing={3}>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={5.5}>
             <SoftBox
               border={`${borderWidth[1]} solid ${borderColor}`}
               borderRadius="lg"
@@ -42,7 +42,22 @@ function PaymentMethod() {
               </SoftBox>
             </SoftBox>
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={6} md={1}>
+            <SoftBox
+  
+              borderRadius="lg"
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+              p={3}
+            >
+              
+              <SoftTypography variant="h6" fontWeight="medium">
+              <img width="25rem" src={Exchange} alt="" />
+              </SoftTypography>
+            </SoftBox>
+          </Grid>
+          <Grid item xs={12} md={5.5}>
             <SoftBox
               border={`${borderWidth[1]} solid ${borderColor}`}
               borderRadius="lg"

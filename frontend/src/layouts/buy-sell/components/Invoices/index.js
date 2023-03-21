@@ -69,7 +69,7 @@ import SoftTypography from "components/SoftTypography";
         </SoftBox>
         <SoftBox px={2} mb={2} display="flex" justifyContent="center" alignItems="center">
       <SoftButton variant="gradient" color="success" width="15%" display="flex" alignItems="center">
-          Confirn Purchase
+          Confirm Purchase
         </SoftButton>
       </SoftBox>
       </SoftBox>

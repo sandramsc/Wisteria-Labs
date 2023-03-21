@@ -10,7 +10,7 @@ const currencyListData = [
     description: "$ 5789.26",
     action: {
       type: "internal",
-      route: "/pages/profile/profile-overview",
+      route: "/layouts/send-request",
       color: "info",
       label: "more...",
     },
@@ -21,7 +21,7 @@ const currencyListData = [
     description: "$ 1425.89",
     action: {
       type: "internal",
-      route: "/pages/profile/profile-overview",
+      route: "/layouts/send-request",
       color: "info",
       label: "more...",
     },
@@ -32,7 +32,7 @@ const currencyListData = [
     description: "",
     action: {
       type: "internal",
-      route: "/pages/profile/profile-overview",
+      route: "/layouts/send-request",
       color: "info",
       label: "",
     },
