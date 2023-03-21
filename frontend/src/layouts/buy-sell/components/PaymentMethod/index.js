@@ -1,8 +1,6 @@
 // @mui material components
 import Card from "@mui/material/Card";
 import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
-import Tooltip from "@mui/material/Tooltip";
 
 // Soft UI Dashboard React components
 import SoftBox from "components/SoftBox";
@@ -72,8 +70,6 @@ function PaymentMethod() {
           Buy Cryptocurrency
         </SoftButton>
       </SoftBox>
-      
-     
     </Card>
   );
 }

@@ -2,10 +2,9 @@ import { useEffect } from "react";
 
 // react-router-dom components
 import { useLocation, NavLink } from "react-router-dom";
-
+import GetCard from "layouts/assets/components/GetCard"
 // prop-types is a library for typechecking of props.
 import PropTypes from "prop-types";
-
 // @mui material components
 import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
@@ -152,7 +151,7 @@ function Sidenav({ color, brand, brandName, routes, ...rest }) {
             color={color}
             fullWidth
           >
-            upgrade to pro
+            <GetCard date="GET $5" id="Invite Friends" />
           </SoftButton>
         </SoftBox>
       </SoftBox>

@@ -27,7 +27,7 @@ function Overview() {
         <Grid container spacing={3}>
           <Grid item xs={12} lg={8}>
             <Grid container spacing={3}>
-              <Grid item xs={12} md={6} xl={6}>
+              <Grid item xs={12} height="28rem" md={6} xl={6}>
               <CurrencyList title="currency" currency={currencyListData} />
               </Grid>
               <Grid item xs={12} md={6} xl={6}>

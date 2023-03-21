@@ -2,6 +2,7 @@
 import Card from "@mui/material/Card";
 // import Divider from "@mui/material/Divider";
 import Icon from "@mui/material/Icon";
+import SoftButton from "components/SoftButton";
 
 // Soft UI Dashboard React components
 import SoftBox from "components/SoftBox";
@@ -95,6 +96,11 @@ function Transactions() {
             value="Pending"
           />
         </SoftBox>
+        <SoftBox pt={4} px={2} mb={2} display="flex" justifyContent="center" alignItems="center">
+      <SoftButton variant="gradient" color="light" width="15%" display="flex" alignItems="center">
+          View Transactions
+        </SoftButton>
+      </SoftBox>
       </SoftBox>
     </Card>
   );
