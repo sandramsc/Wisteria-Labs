@@ -2,10 +2,10 @@
 import Assets from "layouts/assets";
 import Accounts from "layouts/accounts";
 import BuySell from "layouts/buy-sell";
-import SendRequest from "layouts/send-request";
 
 // Soft UI Dashboard React icons
 import Shop from "examples/Icons/Shop";
+import Basket from "examples/Icons/Basket";
 import CustomerSupport from "examples/Icons/CustomerSupport";
 
 const routes = [
@@ -23,17 +23,8 @@ const routes = [
     name: "Buy/Sell",
     key: "buy-sell",
     route: "/buy-sell",
-    icon: <CustomerSupport size="12px" />,
+    icon: <Basket size="12px" />,
     component: <BuySell />,
-    noCollapse: true,
-  },
-  {
-    type: "collapse",
-    name: "Send/Request",
-    key: "send-request",
-    route: "/send-request",
-    icon: <CustomerSupport size="12px" />,
-    component: <SendRequest />,
     noCollapse: true,
   },
   {

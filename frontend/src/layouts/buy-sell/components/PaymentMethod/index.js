@@ -33,7 +33,7 @@ function PaymentMethod() {
             >
               
               <SoftTypography variant="h6" fontWeight="medium">
-              708.85
+              744.56
               </SoftTypography>
               <SoftBox ml="auto" lineHeight={0}>
               <SoftTypography variant="h6" fontWeight="medium">
@@ -68,7 +68,7 @@ function PaymentMethod() {
             >
               
               <SoftTypography variant="h6" fontWeight="medium">
-                1.0002
+                1.002850
               </SoftTypography>
               <SoftBox ml="auto" lineHeight={0}>
               <SoftTypography variant="h6" fontWeight="medium">

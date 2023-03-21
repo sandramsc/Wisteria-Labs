@@ -12,6 +12,7 @@ import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import Icon from "@mui/material/Icon";
+import SoftButton from "components/SoftButton";
 
 // Soft UI Assets React components
 import SoftBox from "components/SoftBox";
@@ -116,6 +117,12 @@ function AssetsNavbar({ absolute, light, isMini }) {
         </SoftBox>
         {isMini ? null : (
           <SoftBox sx={(theme) => navbarRow(theme, { isMini })}>
+          <SoftBox pt={2} px={2} mb={2} display="flex" justifyContent="center" alignItems="center">
+          <SoftButton onClick={handleOpenMenu} variant="gradient" color="info" width="15%" display="flex" alignItems="center">
+              Send/Recieve
+            </SoftButton>
+          </SoftBox>
+
             <SoftBox pr={1}>
               <SoftInput
                 placeholder="Search..."
@@ -158,17 +165,6 @@ function AssetsNavbar({ absolute, light, isMini }) {
                 onClick={handleConfiguratorOpen}
               >
                 <Icon>settings</Icon>
-              </IconButton>
-              <IconButton
-                size="small"
-                color="inherit"
-                sx={navbarIconButton}
-                aria-controls="notification-menu"
-                aria-haspopup="true"
-                variant="contained"
-                onClick={handleOpenMenu}
-              >
-                <Icon className={light ? "text-white" : "text-dark"}>notifications</Icon>
               </IconButton>
               {renderMenu()}
             </SoftBox>

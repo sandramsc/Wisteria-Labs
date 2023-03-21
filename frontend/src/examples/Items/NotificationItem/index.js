@@ -32,8 +32,8 @@ import { menuItem, menuImage } from "examples/Items/NotificationItem/styles";
 const NotificationItem = forwardRef(({ color, image, title, date, ...rest }, ref) => (
   <MenuItem {...rest} ref={ref} sx={(theme) => menuItem(theme)}>
     <SoftBox
-      width="2.25rem"
-      height="2.25rem"
+      width="15.25rem"
+      height="30.25rem"
       mt={0.25}
       mr={2}
       mb={0.25}
