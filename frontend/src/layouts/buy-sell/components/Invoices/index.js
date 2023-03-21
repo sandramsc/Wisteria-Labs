@@ -1,6 +1,6 @@
 // @mui material components
  import Card from "@mui/material/Card";
- 
+ import SoftButton from "components/SoftButton";
  
  // @mui material components
 import Divider from "@mui/material/Divider";
@@ -67,6 +67,11 @@ import SoftTypography from "components/SoftTypography";
           <Invoice date="Total"   price="$753.53"/>
         </SoftBox>
         </SoftBox>
+        <SoftBox px={2} mb={2} display="flex" justifyContent="center" alignItems="center">
+      <SoftButton variant="gradient" color="success" width="15%" display="flex" alignItems="center">
+          Confirn Purchase
+        </SoftButton>
+      </SoftBox>
       </SoftBox>
      </Card>
    );
