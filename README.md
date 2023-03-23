@@ -15,7 +15,6 @@ xyz
 - [Table of Contents](#table-of-contents)
 - [Prototype](#prototype)
 - [Screenshots](#screenshots)
-- [Figma Wireframe](#figma-wireframe)
 - [Technology Stack](#technology-stack)
 - [Features](#features)
 - [How to use the app](#how-to-use-the-app)
