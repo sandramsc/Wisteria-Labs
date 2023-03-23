@@ -26,7 +26,7 @@ xyz
 
 ## Prototype
 
-[View Prototype][(https://link)](https://wisteria-labs.vercel.app/assets)
+[View Prototype](https://wisteria-labs.vercel.app/assets)
 
 ## Screenshots
 ![assets_1](https://user-images.githubusercontent.com/19821445/227278624-c961805c-b31d-4bcb-958d-edaaee04c2b8.PNG)
