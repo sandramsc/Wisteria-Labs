@@ -76,4 +76,4 @@ $ git clone https://github.com/sandramsc/Wisteria-Labs.git
 
 ## License
 
-[![GitLicense](https://img.shields.io/badge/License-MIT-lime.svg)](https://github.com/sandraamsc/AppName/blob/main/LICENSE)
+[![GitLicense](https://img.shields.io/badge/License-MIT-lime.svg)](https://github.com/sandramsc/Wisteria-Labs/blob/main/LICENSE)
