@@ -1,5 +1,6 @@
-<!-- Designed for ETHGlobal 03.2023 hackathon -->
-  <h1 align="center">AppName</h1>
+<!-- Designed for ETHGlobal . Scaling Ethere03.2023 hackathon -->
+  <h1 align="center">
+Wisteria-Labs</h1>
 
 ## Application Description
 
@@ -8,7 +9,7 @@ xyz
 ## Table of Contents
 
 <details>
-<summary>AppName</summary>
+<summary>Wisteria-Labs</summary>
 
 - [Application Description](#application-description)
 - [Table of Contents](#table-of-contents)
@@ -25,11 +26,11 @@ xyz
 
 ## Prototype
 
-[View Prototype](https://link)
+[View Prototype][(https://link)](https://wisteria-labs.vercel.app/assets)
 
 ## Screenshots
-![assets_2](https://user-images.githubusercontent.com/19821445/227278656-2414c3d7-08c8-4b6c-b9b8-12530a9b7bff.PNG)
 ![assets_1](https://user-images.githubusercontent.com/19821445/227278624-c961805c-b31d-4bcb-958d-edaaee04c2b8.PNG)
+![assets_2](https://user-images.githubusercontent.com/19821445/227278656-2414c3d7-08c8-4b6c-b9b8-12530a9b7bff.PNG)
 ![assets_4](https://user-images.githubusercontent.com/19821445/227278600-a6e7b72b-3ed2-4ae3-965e-c39407c83272.PNG)
 ## Technology Stack
 
@@ -51,14 +52,14 @@ xyz
 **Step #1** - Clone the project
 
 ```bash
-$ git clone https://github.com/sandraamsc/AppName
+$ git clone https://github.com/sandramsc/Wisteria-Labs.git
 ```
 
 **Step #2**
 
 - Install dependencies in both frontend and backend folders: `npm i` OR `yarn`
 
-- To start the webapp, run: `npm dev` OR `yarn dev`
+- To start the webapp, run: `npm start` OR `yarn start`
 
 **Step #3**
 
@@ -70,7 +71,7 @@ $ git clone https://github.com/sandraamsc/AppName
 | Name            | Link                                   |
 | --------------- | -------------------------------------- |
 | Sandra Ashipala | https://www.linkedin.com/in/sandraashipala/ |
-| Xavier D'Mello | github/linkedin |
+| Xavier D'Mello | https://github.com/xavierdmello |
 | name |  github/linkedin |
 
 ## License
