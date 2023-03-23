@@ -28,7 +28,10 @@ xyz
 [View Prototype](https://link)
 
 ## Screenshots
-
+![assets_3](https://user-images.githubusercontent.com/19821445/227278572-e0ef5655-c00f-4c0c-b4b7-91d7c340a4ad.PNG)
+![assets_4](https://user-images.githubusercontent.com/19821445/227278600-a6e7b72b-3ed2-4ae3-965e-c39407c83272.PNG)
+![assets_1](https://user-images.githubusercontent.com/19821445/227278624-c961805c-b31d-4bcb-958d-edaaee04c2b8.PNG)
+![assets_2](https://user-images.githubusercontent.com/19821445/227278656-2414c3d7-08c8-4b6c-b9b8-12530a9b7bff.PNG)
 ## Technology Stack
 
 | Technology                                                    | Description                                                          |
@@ -43,10 +46,6 @@ xyz
 - FEATURE 1
 - FEATURE 2
 
-
-## Figma Wireframe
-
-[AppName wireframes](https://link)
 
 ## How to use the app
 
