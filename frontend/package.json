@@ -8,7 +8,7 @@
     "url": "#"
   },
   "engines": {
-    "node": "18.13.0",
+    "node": "18",
     "npm": "9.2.0"
   },
   "dependencies": {
