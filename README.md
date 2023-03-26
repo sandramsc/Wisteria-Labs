@@ -35,15 +35,11 @@ xyz
 
 | Technology                                                    | Description                                                          |
 | ------------------------------------------------------------- | -------------------------------------------------------------------- |
-| Firebase                                                      | Cloud Firestore is a NoSQL document database that lets you easily store, sync, and query data for your mobile and web apps - at global scale. |
 | React.js                                                      | javaScript library                                                   |
-|Vite                                           | xyz          |
-|Hardhat                                           | xyz          |
 
 ## Features
 
-- FEATURE 1
-- FEATURE 2
+- location based security
 
 
 ## How to use the app
@@ -71,7 +67,6 @@ $ git clone https://github.com/sandramsc/Wisteria-Labs.git
 | --------------- | -------------------------------------- |
 | Sandra Ashipala | https://www.linkedin.com/in/sandraashipala/ |
 | Xavier D'Mello | https://github.com/xavierdmello |
-| name |  github/linkedin |
 
 ## License
 
