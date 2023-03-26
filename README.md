@@ -1,10 +1,6 @@
-<!-- Designed for ETHGlobal . Scaling Ethere03.2023 hackathon -->
+<!-- Designed for ETHGlobal . Scaling Ethereum 03.2023 hackathon -->
   <h1 align="center">
 Wisteria-Labs</h1>
-
-## Application Description
-
-xyz
 
 ## Table of Contents
 
