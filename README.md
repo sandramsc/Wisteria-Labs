@@ -35,7 +35,12 @@ xyz
 
 | Technology                                                    | Description                                                          |
 | ------------------------------------------------------------- | -------------------------------------------------------------------- |
-| React.js                                                      | javaScript library                                                   |
+| React.js                                                      | javaScript framework                                               |
+| Wagmi                                                      | wagmi is a collection of React Hooks                                                   |
+| Vite                                                      | next generation frontend tooling                                                   |
+| Gnosis Safe                                                      | most trusted platform to manage digital assets                                                  |
+| TypeScript                                                      | javaScript with syntax for types                                                   |
+
 
 ## Features
 
